@@ -1,0 +1,18 @@
+
+SEARCH (answerable questions)
+label                                         Recall@1            Recall@3                 MRR
+mpnet                                            0.889               0.944               0.928
+
+ANSWERS (leaflet questions)
+label                                     good answers      false refusals    correct refusals
+groq__t0.2                                          16                   1                   6
+groq__t0.4                                          17                   1                   6
+  gap groq__t0.4 vs groq__t0.2: 1 task(s)
+
+AGENT (24 tasks)
+label                                        succeeded         right tools       right answers  unrequested orders
+gpt-oss-20b__precise                                19                  23                  19                   0
+qwen3.8-27b__precise                                19                  23                  20                   0
+qwen3.8-27b__vague                                  19                  21                  20                   0
+  gap gpt-oss-20b__precise vs qwen3.8-27b__precise: 0 task(s)
+  gap gpt-oss-20b__precise vs qwen3.8-27b__vague: 0 task(s)

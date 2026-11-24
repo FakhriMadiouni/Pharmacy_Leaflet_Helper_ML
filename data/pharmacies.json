@@ -1,0 +1,44 @@
+[
+  {
+    "id": "PH001",
+    "name": "Green Cross Pharmacy",
+    "city": "Tunis",
+    "status": "active",
+    "special_authorization": false
+  },
+  {
+    "id": "PH002",
+    "name": "Harbor Pharmacy",
+    "city": "Sfax",
+    "status": "active",
+    "special_authorization": true
+  },
+  {
+    "id": "PH003",
+    "name": "Sunrise Pharmacy",
+    "city": "Sousse",
+    "status": "blocked",
+    "special_authorization": false
+  },
+  {
+    "id": "PH004",
+    "name": "Olive Tree Pharmacy",
+    "city": "Bizerte",
+    "status": "active",
+    "special_authorization": false
+  },
+  {
+    "id": "PH005",
+    "name": "Central Pharmacy",
+    "city": "Tunis",
+    "status": "active",
+    "special_authorization": true
+  },
+  {
+    "id": "PH006",
+    "name": "Palm Pharmacy",
+    "city": "Djerba",
+    "status": "blocked",
+    "special_authorization": false
+  }
+]

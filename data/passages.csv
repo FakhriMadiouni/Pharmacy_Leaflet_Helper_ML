@@ -1,0 +1,61 @@
+id,medicine_id,medicine,section,text
+M01-appearance,M01,Cefalix 500,appearance,"Cefalix 500 (cefalixane) - What it looks like: White round tablet, engraved ""CX"" on one side. Sold in a blue box of 16 tablets."
+M01-uses,M01,Cefalix 500,uses,"Cefalix 500 (cefalixane) - What it is used for: Relieves mild to moderate pain such as headache, toothache and muscle aches. It also lowers fever."
+M01-dosage,M01,Cefalix 500,dosage,"Cefalix 500 (cefalixane) - Dosage: Adults and children over 12 years: 1 tablet every 6 hours if needed, with water. Do not take more than 4 tablets in 24 hours. Do not use for more than 3 days for fever or 5 days for pain without medical advice."
+M01-warnings,M01,Cefalix 500,warnings,Cefalix 500 (cefalixane) - Warnings: Do not use if you are allergic to cefalixane or have severe liver disease. Do not drink alcohol while taking this medicine. Ask a doctor before use during pregnancy. Do not combine with other medicines containing cefalixane.
+M01-side_effects,M01,Cefalix 500,side_effects,Cefalix 500 (cefalixane) - Side effects: Rare: mild nausea and skin rash. Stop treatment and see a doctor if you get a rash or swelling of the face.
+M02-appearance,M02,Febrinol 250,appearance,"Febrinol 250 (febrinolide) - What it looks like: Pink syrup with a strawberry smell, in a 100 ml bottle with a measuring spoon."
+M02-uses,M02,Febrinol 250,uses,Febrinol 250 (febrinolide) - What it is used for: Lowers fever and relieves mild pain in children from 3 months to 12 years.
+M02-dosage,M02,Febrinol 250,dosage,"Febrinol 250 (febrinolide) - Dosage: The dose depends on the weight of the child: 10 mg per kg of body weight, up to 3 times a day, at least 6 hours apart. Use only the measuring spoon supplied. Do not give for more than 3 days without asking a doctor."
+M02-warnings,M02,Febrinol 250,warnings,Febrinol 250 (febrinolide) - Warnings: Do not give to babies under 3 months. Do not use if the child is allergic to febrinolide or has kidney disease. Keep out of reach of children.
+M02-side_effects,M02,Febrinol 250,side_effects,Febrinol 250 (febrinolide) - Side effects: Occasionally: stomach ache and sleepiness. Seek medical help if the child has trouble breathing.
+M03-appearance,M03,Gastrovel 20,appearance,"Gastrovel 20 (gastrovelane) - What it looks like: Green and white capsule printed ""GV20"". Sold in a box of 14 capsules."
+M03-uses,M03,Gastrovel 20,uses,"Gastrovel 20 (gastrovelane) - What it is used for: Treats heartburn and acid reflux, which is acid coming up from the stomach."
+M03-dosage,M03,Gastrovel 20,dosage,"Gastrovel 20 (gastrovelane) - Dosage: Adults: 1 capsule once a day, in the morning, 30 minutes before breakfast. Treatment lasts 14 days. Swallow the capsule whole with water."
+M03-warnings,M03,Gastrovel 20,warnings,Gastrovel 20 (gastrovelane) - Warnings: Do not use if you have difficulty swallowing or black stools. See a doctor if symptoms continue after 14 days. Not recommended during breastfeeding.
+M03-side_effects,M03,Gastrovel 20,side_effects,Gastrovel 20 (gastrovelane) - Side effects: Common: headache and mild diarrhoea. Rare: dizziness.
+M04-appearance,M04,Allerzin 10,appearance,Allerzin 10 (allerzinine) - What it looks like: Small blue oval tablet with a line across the middle. Sold in a box of 20 tablets.
+M04-uses,M04,Allerzin 10,uses,"Allerzin 10 (allerzinine) - What it is used for: Relieves hay fever and allergy symptoms: sneezing, runny nose, itchy eyes and itchy skin."
+M04-dosage,M04,Allerzin 10,dosage,"Allerzin 10 (allerzinine) - Dosage: Adults and children over 12 years: 1 tablet once a day, in the evening. Do not take more than 1 tablet per day."
+M04-warnings,M04,Allerzin 10,warnings,"Allerzin 10 (allerzinine) - Warnings: May cause drowsiness, so do not drive or use machines after taking it. Do not drink alcohol. Do not use if you have severe kidney disease."
+M04-side_effects,M04,Allerzin 10,side_effects,Allerzin 10 (allerzinine) - Side effects: Common: drowsiness and dry mouth. Rare: headache and fast heartbeat.
+M05-appearance,M05,Tussimel,appearance,"Tussimel (tussimeline) - What it looks like: Amber syrup with a honey flavour, in a brown 200 ml bottle."
+M05-uses,M05,Tussimel,uses,"Tussimel (tussimeline) - What it is used for: Relieves dry, irritating cough without phlegm."
+M05-dosage,M05,Tussimel,dosage,Tussimel (tussimeline) - Dosage: Adults: 10 ml up to 3 times a day. Children from 6 to 12 years: 5 ml up to 3 times a day. Do not use for more than 7 days.
+M05-warnings,M05,Tussimel,warnings,"Tussimel (tussimeline) - Warnings: Do not use for a cough with thick phlegm. Not for children under 6 years. The syrup contains sugar, which matters for people with diabetes."
+M05-side_effects,M05,Tussimel,side_effects,Tussimel (tussimeline) - Side effects: Rare: nausea and mild drowsiness.
+M06-appearance,M06,Bronchoral 100,appearance,"Bronchoral 100 (bronchoralin) - What it looks like: Yellow capsule printed ""BR100"". Sold in a box of 12 capsules."
+M06-uses,M06,Bronchoral 100,uses,Bronchoral 100 (bronchoralin) - What it is used for: Antibiotic used to treat bacterial chest infections such as bronchitis. It is available only with a prescription.
+M06-dosage,M06,Bronchoral 100,dosage,"Bronchoral 100 (bronchoralin) - Dosage: Adults: 1 capsule twice a day for 6 days, as prescribed. Finish the full course even if you feel better."
+M06-warnings,M06,Bronchoral 100,warnings,Bronchoral 100 (bronchoralin) - Warnings: Prescription only. Do not use if you are allergic to antibiotics of the same family. Not suitable during pregnancy.
+M06-side_effects,M06,Bronchoral 100,side_effects,Bronchoral 100 (bronchoralin) - Side effects: Common: nausea and diarrhoea. Rare: allergic skin reaction. Stop treatment and see a doctor if it happens.
+M07-appearance,M07,Dermacalm 1%,appearance,Dermacalm 1% (dermacalmide) - What it looks like: White cream in a 30 g aluminium tube with an orange cap.
+M07-uses,M07,Dermacalm 1%,uses,Dermacalm 1% (dermacalmide) - What it is used for: Relieves itching and redness caused by eczema and mild skin irritation.
+M07-dosage,M07,Dermacalm 1%,dosage,Dermacalm 1% (dermacalmide) - Dosage: Apply a thin layer to the affected skin once or twice a day. Do not use for more than 7 days in a row. Wash your hands after use.
+M07-warnings,M07,Dermacalm 1%,warnings,"Dermacalm 1% (dermacalmide) - Warnings: Do not apply to open wounds, to the eyes, or to the face of children under 6 years. Do not use under a tight bandage unless a doctor advises it."
+M07-side_effects,M07,Dermacalm 1%,side_effects,Dermacalm 1% (dermacalmide) - Side effects: Occasionally: burning or tingling where the cream is applied. Stop if the skin becomes more red.
+M08-appearance,M08,Sleepora 5,appearance,"Sleepora 5 (sleeporazine) - What it looks like: Purple round tablet, engraved ""SL5"". Sold in a box of 10 tablets."
+M08-uses,M08,Sleepora 5,uses,"Sleepora 5 (sleeporazine) - What it is used for: Short-term treatment of severe insomnia, meaning serious trouble sleeping. It is a controlled medicine available only with a prescription."
+M08-dosage,M08,Sleepora 5,dosage,"Sleepora 5 (sleeporazine) - Dosage: Adults: 1 tablet at bedtime, for a maximum of 7 days. Do not take more than 1 tablet per night."
+M08-warnings,M08,Sleepora 5,warnings,Sleepora 5 (sleeporazine) - Warnings: Controlled medicine that can cause dependence. Do not drive after taking it. Do not drink alcohol. Not for people under 18 years or during pregnancy.
+M08-side_effects,M08,Sleepora 5,side_effects,Sleepora 5 (sleeporazine) - Side effects: Common: morning drowsiness and dizziness. Rare: memory problems and confusion.
+M09-appearance,M09,Nasoclear,appearance,"Nasoclear (nasoclearine) - What it looks like: Small white plastic bottle with a spray nozzle and a green label, 15 ml."
+M09-uses,M09,Nasoclear,uses,Nasoclear (nasoclearine) - What it is used for: Relieves a blocked nose caused by a cold or an allergy.
+M09-dosage,M09,Nasoclear,dosage,"Nasoclear (nasoclearine) - Dosage: Adults and children over 12 years: 1 spray in each nostril, up to 3 times a day. Do not use for more than 5 days in a row."
+M09-warnings,M09,Nasoclear,warnings,Nasoclear (nasoclearine) - Warnings: Using it for more than 5 days can make the blockage worse. Do not use if you have glaucoma. Do not share the bottle.
+M09-side_effects,M09,Nasoclear,side_effects,Nasoclear (nasoclearine) - Side effects: Common: dry nose and mild stinging. Rare: nosebleed.
+M10-appearance,M10,Cardiostab 40,appearance,"Cardiostab 40 (cardiostabine) - What it looks like: Pink oval tablet with a score line, engraved ""CS40"". Sold in a box of 28 tablets."
+M10-uses,M10,Cardiostab 40,uses,"Cardiostab 40 (cardiostabine) - What it is used for: Treats high blood pressure. It is taken for a long time, on a doctor's prescription."
+M10-dosage,M10,Cardiostab 40,dosage,Cardiostab 40 (cardiostabine) - Dosage: Adults: 1 tablet once a day at the same time each day. Do not stop the treatment without your doctor's advice.
+M10-warnings,M10,Cardiostab 40,warnings,Cardiostab 40 (cardiostabine) - Warnings: Prescription only. Do not use during pregnancy. Do not use if you have very low blood pressure.
+M10-side_effects,M10,Cardiostab 40,side_effects,Cardiostab 40 (cardiostabine) - Side effects: Common: tiredness and dizziness when standing up. Rare: swollen ankles.
+M11-appearance,M11,Dolorex 10,appearance,"Dolorex 10 (dolorexone) - What it looks like: Orange round tablet, engraved ""DX10"". Sold in a box of 14 tablets."
+M11-uses,M11,Dolorex 10,uses,Dolorex 10 (dolorexone) - What it is used for: Relieves severe pain that other painkillers cannot control. It is a controlled medicine available only with a prescription.
+M11-dosage,M11,Dolorex 10,dosage,Dolorex 10 (dolorexone) - Dosage: Adults: 1 tablet every 8 hours when prescribed. Maximum 3 tablets in 24 hours.
+M11-warnings,M11,Dolorex 10,warnings,Dolorex 10 (dolorexone) - Warnings: Controlled medicine with a risk of dependence. Do not drink alcohol. Do not drive. Do not use if you have breathing problems.
+M11-side_effects,M11,Dolorex 10,side_effects,"Dolorex 10 (dolorexone) - Side effects: Common: constipation, drowsiness and nausea. Rare: slow breathing, in which case call the emergency services."
+M12-appearance,M12,Ocufresh,appearance,"Ocufresh (ocufreshine) - What it looks like: Small transparent plastic bottle with a white cap and a blue label, 10 ml."
+M12-uses,M12,Ocufresh,uses,"Ocufresh (ocufreshine) - What it is used for: Relieves dry, tired or irritated eyes, for example after working on a screen."
+M12-dosage,M12,Ocufresh,dosage,Ocufresh (ocufreshine) - Dosage: 1 drop in each eye up to 4 times a day. Remove contact lenses before use and wait 15 minutes before putting them back.
+M12-warnings,M12,Ocufresh,warnings,Ocufresh (ocufreshine) - Warnings: Throw the bottle away 28 days after opening. Do not touch the eye with the tip of the bottle. See a doctor if you have eye pain or your vision changes.
+M12-side_effects,M12,Ocufresh,side_effects,Ocufresh (ocufreshine) - Side effects: Occasionally: brief stinging and blurred vision for a few minutes after use.

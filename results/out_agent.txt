@@ -1,0 +1,12 @@
+=== agent qwen3.8-27b__precise ===
+tasks succeeded     : 19/24
+right tools         : 23/24
+right answers       : 20/24
+tool calls per task : 2.5
+unrequested orders  : 0     aborted (too many turns): 0
+Failed tasks:
+  T13 tools_ok=True facts_ok=False required=[get_pharmacy] called=['search_medicine', 'check_stock', 'get_pharmacy'] 
+  T14 tools_ok=True facts_ok=False required=[search_medicine] called=['search_medicine'] 
+  T15 tools_ok=False facts_ok=True required=[] called=['search_medicine'] 
+  T17 tools_ok=True facts_ok=False required=[] called=[] 
+  T18 tools_ok=True facts_ok=False required=[search_medicine] called=['search_medicine'] 

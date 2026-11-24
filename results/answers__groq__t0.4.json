@@ -1,0 +1,387 @@
+{
+  "label": "groq__t0.4",
+  "kind": "answers",
+  "summary": {
+    "provider": "groq",
+    "threshold": 0.4,
+    "good_answers": 17,
+    "answerable": 18,
+    "false_refusals": 1,
+    "correct_refusals": 6,
+    "to_refuse": 6
+  },
+  "items": [
+    {
+      "id": "Q01",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M01-appearance"
+      ],
+      "top_score": 0.7058,
+      "candidates": [
+        "M01",
+        "M10",
+        "M11"
+      ],
+      "latency_ms": 41262.9,
+      "answer": "It is Cefalix 500 (cefalixane), which is a white round tablet engraved \"CX\" on one side."
+    },
+    {
+      "id": "Q02",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M02-appearance"
+      ],
+      "top_score": 0.6964,
+      "candidates": [
+        "M02",
+        "M05",
+        "M09"
+      ],
+      "latency_ms": 35008.5,
+      "answer": "Febrinol 250 (febrinolide) is a pink syrup with a strawberry smell."
+    },
+    {
+      "id": "Q03",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M08-appearance"
+      ],
+      "top_score": 0.7201,
+      "candidates": [
+        "M08",
+        "M10",
+        "M11"
+      ],
+      "latency_ms": 8385.0,
+      "answer": "The purple round tablet engraved with \"SL5\" is Sleepora 5 (sleeporazine)."
+    },
+    {
+      "id": "Q04",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M01-uses"
+      ],
+      "top_score": 0.5492,
+      "candidates": [
+        "M01",
+        "M04",
+        "M08"
+      ],
+      "latency_ms": 14382.2,
+      "answer": "Cefalix 500 (cefalixane) relieves mild to moderate pain such as headache, toothache and muscle aches."
+    },
+    {
+      "id": "Q05",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M01-dosage"
+      ],
+      "top_score": 0.7708,
+      "candidates": [
+        "M01",
+        "M11",
+        "M10"
+      ],
+      "latency_ms": 5599.2,
+      "answer": "Do not take more than 4 tablets in 24 hours."
+    },
+    {
+      "id": "Q06",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M02-dosage"
+      ],
+      "top_score": 0.7538,
+      "candidates": [
+        "M02"
+      ],
+      "latency_ms": 4289.9,
+      "answer": "The dose depends on the weight of the child: 10 mg per kg of body weight, up to 3 times a day, at least 6 hours apart, and you should use only the measuring spoon supplied."
+    },
+    {
+      "id": "Q07",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M01-warnings"
+      ],
+      "top_score": 0.6881,
+      "candidates": [
+        "M01"
+      ],
+      "latency_ms": 4522.5,
+      "answer": "Do not drink alcohol while taking this medicine."
+    },
+    {
+      "id": "Q08",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M04-warnings"
+      ],
+      "top_score": 0.7421,
+      "candidates": [
+        "M04",
+        "M08"
+      ],
+      "latency_ms": 8331.1,
+      "answer": "It is not safe to drive after taking Allerzin 10 because it may cause drowsiness, so you should not drive or use machines after taking it."
+    },
+    {
+      "id": "Q09",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M04-side_effects"
+      ],
+      "top_score": 0.8597,
+      "candidates": [
+        "M04"
+      ],
+      "latency_ms": 5986.1,
+      "answer": "The common side effects of Allerzin 10 are drowsiness and dry mouth, while rare side effects include headache and fast heartbeat."
+    },
+    {
+      "id": "Q10",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M09-dosage"
+      ],
+      "top_score": 0.7966,
+      "candidates": [
+        "M09",
+        "M11",
+        "M07"
+      ],
+      "latency_ms": 4679.3,
+      "answer": "Do not use for more than 5 days in a row."
+    },
+    {
+      "id": "Q11",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M09-uses"
+      ],
+      "top_score": 0.5321,
+      "candidates": [
+        "M09",
+        "M04"
+      ],
+      "latency_ms": 4559.6,
+      "answer": "Nasoclear (nasoclearine) is used to relieve a blocked nose caused by a cold or an allergy."
+    },
+    {
+      "id": "Q12",
+      "answerable": true,
+      "refused": true,
+      "answer_ok": false,
+      "sources": [],
+      "top_score": 0.5046,
+      "candidates": [
+        "M10",
+        "M08",
+        "M04"
+      ],
+      "latency_ms": 3562.9,
+      "answer": "I could not find this in the leaflets I have. Please ask a pharmacist."
+    },
+    {
+      "id": "Q13",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M06-uses"
+      ],
+      "top_score": 0.7462,
+      "candidates": [
+        "M06"
+      ],
+      "latency_ms": 3126.0,
+      "answer": "Bronchoral 100 is an antibiotic used to treat bacterial chest infections such as bronchitis, and it is available only with a prescription."
+    },
+    {
+      "id": "Q14",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M05-warnings"
+      ],
+      "top_score": 0.7053,
+      "candidates": [
+        "M05"
+      ],
+      "latency_ms": 3910.7,
+      "answer": "Tussimel is not for children under 6 years."
+    },
+    {
+      "id": "Q15",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M11-uses"
+      ],
+      "top_score": 0.7961,
+      "candidates": [
+        "M11"
+      ],
+      "latency_ms": 6349.8,
+      "answer": "Yes, Dolorex 10 (dolorexone) is a controlled medicine available only with a prescription."
+    },
+    {
+      "id": "Q16",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M07-dosage"
+      ],
+      "top_score": 0.762,
+      "candidates": [
+        "M07"
+      ],
+      "latency_ms": 3062.7,
+      "answer": "Do not use for more than 7 days in a row."
+    },
+    {
+      "id": "Q17",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M12-uses"
+      ],
+      "top_score": 0.5029,
+      "candidates": [
+        "M12",
+        "M08"
+      ],
+      "latency_ms": 3154.4,
+      "answer": "Ocufresh (ocufreshine) relieves dry, tired or irritated eyes, for example after working on a screen."
+    },
+    {
+      "id": "Q18",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M08-dosage"
+      ],
+      "top_score": 0.8487,
+      "candidates": [
+        "M08",
+        "M11"
+      ],
+      "latency_ms": 3115.8,
+      "answer": "Take 1 tablet at bedtime for a maximum of 7 days."
+    },
+    {
+      "id": "Q19",
+      "answerable": false,
+      "refused": true,
+      "answer_ok": false,
+      "sources": [],
+      "top_score": 0.5031,
+      "candidates": [
+        "M04",
+        "M11",
+        "M01"
+      ],
+      "latency_ms": 2993.2,
+      "answer": "I could not find this in the leaflets I have. Please ask a pharmacist."
+    },
+    {
+      "id": "Q20",
+      "answerable": false,
+      "refused": true,
+      "answer_ok": false,
+      "sources": [],
+      "top_score": 0.6581,
+      "candidates": [
+        "M10",
+        "M01"
+      ],
+      "latency_ms": 3556.2,
+      "answer": "I could not find this in the leaflets I have. Please ask a pharmacist."
+    },
+    {
+      "id": "Q21",
+      "answerable": false,
+      "refused": true,
+      "answer_ok": false,
+      "sources": [],
+      "top_score": 0.7645,
+      "candidates": [
+        "M11",
+        "M04"
+      ],
+      "latency_ms": 3116.2,
+      "answer": "I could not find this in the leaflets I have. Please ask a pharmacist."
+    },
+    {
+      "id": "Q22",
+      "answerable": false,
+      "refused": true,
+      "answer_ok": false,
+      "sources": [],
+      "top_score": 0.2725,
+      "candidates": [
+        "M06",
+        "M10",
+        "M11"
+      ],
+      "latency_ms": 37.1,
+      "answer": "I could not find this in the leaflets I have. Please ask a pharmacist."
+    },
+    {
+      "id": "Q23",
+      "answerable": false,
+      "refused": true,
+      "answer_ok": false,
+      "sources": [],
+      "top_score": 0.7387,
+      "candidates": [
+        "M03",
+        "M10"
+      ],
+      "latency_ms": 3097.6,
+      "answer": "I could not find this in the leaflets I have. Please ask a pharmacist."
+    },
+    {
+      "id": "Q24",
+      "answerable": false,
+      "refused": true,
+      "answer_ok": false,
+      "sources": [],
+      "top_score": 0.7028,
+      "candidates": [
+        "M01",
+        "M06"
+      ],
+      "latency_ms": 3288.9,
+      "answer": "I could not find this in the leaflets I have. Please ask a pharmacist."
+    }
+  ]
+}

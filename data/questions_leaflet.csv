@@ -1,0 +1,25 @@
+id,question,expected_passages,expected_facts,answerable
+Q01,I found a small white round pill with CX engraved on it. What is it?,M01-appearance,cefalix,1
+Q02,Which medicine is a pink syrup that smells like strawberry?,M02-appearance,febrinol,1
+Q03,There is a purple tablet with SL5 written on it in my mother's drawer. Which medicine is that?,M08-appearance,sleepora,1
+Q04,What can I take for a headache?,M01-uses,cefalix,1
+Q05,How many Cefalix 500 tablets can an adult take in one day?,M01-dosage,4 tablets,1
+Q06,How should I give Febrinol to my child and how often?,M02-dosage,10 mg per kg;3 times a day,1
+Q07,Can I drink alcohol while taking Cefalix?,M01-warnings,alcohol,1
+Q08,Is it safe to drive after taking Allerzin?,M04-warnings,drowsiness,1
+Q09,What are the side effects of Allerzin 10?,M04-side_effects,drowsiness;dry mouth,1
+Q10,For how many days in a row can I use the Nasoclear spray?,M09-dosage,5 days,1
+Q11,My nose is completely blocked because of a cold. What do you have for that?,M09-uses,nasoclear,1
+Q12,I have heartburn every night. What should I take and how?,M03-uses;M03-dosage,gastrovel;once a day,1
+Q13,"What is Bronchoral used for, and can I buy it without a prescription?",M06-uses,antibiotic;prescription,1
+Q14,Can I give Tussimel to my 4-year-old?,M05-warnings,under 6,1
+Q15,Is Dolorex a controlled medicine?,M11-uses,controlled,1
+Q16,How long can I put Dermacalm cream on in a row?,M07-dosage,7 days,1
+Q17,My eyes are dry and tired after a day in front of a screen. What helps?,M12-uses,ocufresh,1
+Q18,"How many Sleepora tablets per night, and for how many days at most?",M08-dosage,1 tablet;7 days,1
+Q19,Do you have information about Zyloprex 50?,,,0
+Q20,Can I take Cefalix 500 together with Cardiostab 40?,,,0
+Q21,What is the right dose of Dolorex 10 for my 8-year-old son?,,,0
+Q22,What is the best restaurant near the pharmacy?,,,0
+Q23,Can I take Gastrovel 20 while I am pregnant?,,,0
+Q24,How much does a box of Cefalix 500 cost?,,,0

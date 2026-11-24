@@ -1,0 +1,388 @@
+{
+  "label": "groq__t0.2",
+  "kind": "answers",
+  "summary": {
+    "provider": "groq",
+    "threshold": 0.2,
+    "good_answers": 16,
+    "answerable": 18,
+    "false_refusals": 1,
+    "correct_refusals": 6,
+    "to_refuse": 6
+  },
+  "items": [
+    {
+      "id": "Q01",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M01-appearance"
+      ],
+      "top_score": 0.7058,
+      "candidates": [
+        "M01",
+        "M10",
+        "M11"
+      ],
+      "latency_ms": 14369.5,
+      "answer": "Cefalix 500 (cefalixane)"
+    },
+    {
+      "id": "Q02",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M02-appearance"
+      ],
+      "top_score": 0.6964,
+      "candidates": [
+        "M02",
+        "M05",
+        "M09"
+      ],
+      "latency_ms": 2714.8,
+      "answer": "Febrinol 250 (febrinolide)"
+    },
+    {
+      "id": "Q03",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M08-appearance"
+      ],
+      "top_score": 0.7201,
+      "candidates": [
+        "M08",
+        "M10",
+        "M11"
+      ],
+      "latency_ms": 3087.6,
+      "answer": "Sleepora 5 (sleeporazine)"
+    },
+    {
+      "id": "Q04",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M01-uses"
+      ],
+      "top_score": 0.5492,
+      "candidates": [
+        "M01",
+        "M04",
+        "M08"
+      ],
+      "latency_ms": 2733.0,
+      "answer": "Cefalix 500 (cefalixane) is used to relieve mild to moderate pain such as headache."
+    },
+    {
+      "id": "Q05",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": false,
+      "sources": [
+        "M01-dosage"
+      ],
+      "top_score": 0.7708,
+      "candidates": [
+        "M01",
+        "M11",
+        "M10"
+      ],
+      "latency_ms": 3063.4,
+      "answer": "4"
+    },
+    {
+      "id": "Q06",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M02-dosage"
+      ],
+      "top_score": 0.7538,
+      "candidates": [
+        "M02"
+      ],
+      "latency_ms": 3641.2,
+      "answer": "The dose depends on the child's weight: 10 mg per kg of body weight, up to 3 times a day, at least 6 hours apart. Use only the measuring spoon supplied. Do not give for more than 3 days without asking a doctor."
+    },
+    {
+      "id": "Q07",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M01-warnings"
+      ],
+      "top_score": 0.6881,
+      "candidates": [
+        "M01"
+      ],
+      "latency_ms": 3434.2,
+      "answer": "No, do not drink alcohol while taking this medicine."
+    },
+    {
+      "id": "Q08",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M04-warnings"
+      ],
+      "top_score": 0.7421,
+      "candidates": [
+        "M04",
+        "M08"
+      ],
+      "latency_ms": 2880.2,
+      "answer": "No, it may cause drowsiness, so do not drive or use machines after taking it."
+    },
+    {
+      "id": "Q09",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M04-side_effects"
+      ],
+      "top_score": 0.8597,
+      "candidates": [
+        "M04"
+      ],
+      "latency_ms": 2871.5,
+      "answer": "Common side effects are drowsiness and dry mouth. Rare side effects are headache and fast heartbeat."
+    },
+    {
+      "id": "Q10",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M09-dosage"
+      ],
+      "top_score": 0.7966,
+      "candidates": [
+        "M09",
+        "M11",
+        "M07"
+      ],
+      "latency_ms": 2857.3,
+      "answer": "5 days"
+    },
+    {
+      "id": "Q11",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M09-uses"
+      ],
+      "top_score": 0.5321,
+      "candidates": [
+        "M09",
+        "M04"
+      ],
+      "latency_ms": 2896.9,
+      "answer": "Nasoclear (nasoclearine) is used to relieve a blocked nose caused by a cold."
+    },
+    {
+      "id": "Q12",
+      "answerable": true,
+      "refused": true,
+      "answer_ok": false,
+      "sources": [],
+      "top_score": 0.5046,
+      "candidates": [
+        "M10",
+        "M08",
+        "M04"
+      ],
+      "latency_ms": 2849.8,
+      "answer": "I could not find this in the leaflets I have. Please ask a pharmacist."
+    },
+    {
+      "id": "Q13",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M06-uses"
+      ],
+      "top_score": 0.7462,
+      "candidates": [
+        "M06"
+      ],
+      "latency_ms": 2947.5,
+      "answer": "Bronchoral is an antibiotic used to treat bacterial chest infections such as bronchitis. It is available only with a prescription."
+    },
+    {
+      "id": "Q14",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M05-warnings"
+      ],
+      "top_score": 0.7053,
+      "candidates": [
+        "M05"
+      ],
+      "latency_ms": 2889.7,
+      "answer": "No, Tussimel is not for children under 6 years."
+    },
+    {
+      "id": "Q15",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M11-uses",
+        "M11-warnings"
+      ],
+      "top_score": 0.7961,
+      "candidates": [
+        "M11"
+      ],
+      "latency_ms": 3108.3,
+      "answer": "Yes, Dolorex 10 (dolorexone) is a controlled medicine available only with a prescription."
+    },
+    {
+      "id": "Q16",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M07-dosage"
+      ],
+      "top_score": 0.762,
+      "candidates": [
+        "M07"
+      ],
+      "latency_ms": 2800.4,
+      "answer": "Do not use for more than 7 days in a row."
+    },
+    {
+      "id": "Q17",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M12-uses"
+      ],
+      "top_score": 0.5029,
+      "candidates": [
+        "M12",
+        "M08"
+      ],
+      "latency_ms": 2940.7,
+      "answer": "Ocufresh (ocufreshine) relieves dry, tired or irritated eyes, for example after working on a screen."
+    },
+    {
+      "id": "Q18",
+      "answerable": true,
+      "refused": false,
+      "answer_ok": true,
+      "sources": [
+        "M08-dosage"
+      ],
+      "top_score": 0.8487,
+      "candidates": [
+        "M08",
+        "M11"
+      ],
+      "latency_ms": 2915.7,
+      "answer": "1 tablet per night, for a maximum of 7 days."
+    },
+    {
+      "id": "Q19",
+      "answerable": false,
+      "refused": true,
+      "answer_ok": false,
+      "sources": [],
+      "top_score": 0.5031,
+      "candidates": [
+        "M04",
+        "M11",
+        "M01"
+      ],
+      "latency_ms": 2743.6,
+      "answer": "I could not find this in the leaflets I have. Please ask a pharmacist."
+    },
+    {
+      "id": "Q20",
+      "answerable": false,
+      "refused": true,
+      "answer_ok": false,
+      "sources": [],
+      "top_score": 0.6581,
+      "candidates": [
+        "M10",
+        "M01"
+      ],
+      "latency_ms": 3801.0,
+      "answer": "I could not find this in the leaflets I have. Please ask a pharmacist."
+    },
+    {
+      "id": "Q21",
+      "answerable": false,
+      "refused": true,
+      "answer_ok": false,
+      "sources": [],
+      "top_score": 0.7645,
+      "candidates": [
+        "M11",
+        "M04"
+      ],
+      "latency_ms": 3028.5,
+      "answer": "I could not find this in the leaflets I have. Please ask a pharmacist."
+    },
+    {
+      "id": "Q22",
+      "answerable": false,
+      "refused": true,
+      "answer_ok": false,
+      "sources": [],
+      "top_score": 0.2725,
+      "candidates": [
+        "M06",
+        "M10",
+        "M11"
+      ],
+      "latency_ms": 2711.9,
+      "answer": "I could not find this in the leaflets I have. Please ask a pharmacist."
+    },
+    {
+      "id": "Q23",
+      "answerable": false,
+      "refused": true,
+      "answer_ok": false,
+      "sources": [],
+      "top_score": 0.7387,
+      "candidates": [
+        "M03",
+        "M10"
+      ],
+      "latency_ms": 3033.3,
+      "answer": "I could not find this in the leaflets I have. Please ask a pharmacist."
+    },
+    {
+      "id": "Q24",
+      "answerable": false,
+      "refused": true,
+      "answer_ok": false,
+      "sources": [],
+      "top_score": 0.7028,
+      "candidates": [
+        "M01",
+        "M06"
+      ],
+      "latency_ms": 3276.7,
+      "answer": "I could not find this in the leaflets I have. Please ask a pharmacist."
+    }
+  ]
+}

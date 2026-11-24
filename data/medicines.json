@@ -1,0 +1,122 @@
+[
+  {
+    "id": "M01",
+    "name": "Cefalix 500",
+    "active_ingredient": "cefalixane",
+    "form": "tablet 500 mg",
+    "price": 4.5,
+    "stock": 120,
+    "prescription_only": false,
+    "controlled": false
+  },
+  {
+    "id": "M02",
+    "name": "Febrinol 250",
+    "active_ingredient": "febrinolide",
+    "form": "strawberry syrup 250 mg per 5 ml, bottle of 100 ml",
+    "price": 5.2,
+    "stock": 60,
+    "prescription_only": false,
+    "controlled": false
+  },
+  {
+    "id": "M03",
+    "name": "Gastrovel 20",
+    "active_ingredient": "gastrovelane",
+    "form": "capsule 20 mg, box of 14",
+    "price": 6.8,
+    "stock": 85,
+    "prescription_only": false,
+    "controlled": false
+  },
+  {
+    "id": "M04",
+    "name": "Allerzin 10",
+    "active_ingredient": "allerzinine",
+    "form": "tablet 10 mg, box of 20",
+    "price": 7.9,
+    "stock": 70,
+    "prescription_only": false,
+    "controlled": false
+  },
+  {
+    "id": "M05",
+    "name": "Tussimel",
+    "active_ingredient": "tussimeline",
+    "form": "syrup, bottle of 200 ml",
+    "price": 6.1,
+    "stock": 8,
+    "prescription_only": false,
+    "controlled": false
+  },
+  {
+    "id": "M06",
+    "name": "Bronchoral 100",
+    "active_ingredient": "bronchoralin",
+    "form": "capsule 100 mg, box of 12",
+    "price": 12.4,
+    "stock": 40,
+    "prescription_only": true,
+    "controlled": false
+  },
+  {
+    "id": "M07",
+    "name": "Dermacalm 1%",
+    "active_ingredient": "dermacalmide",
+    "form": "cream 1%, tube of 30 g",
+    "price": 8.3,
+    "stock": 55,
+    "prescription_only": false,
+    "controlled": false
+  },
+  {
+    "id": "M08",
+    "name": "Sleepora 5",
+    "active_ingredient": "sleeporazine",
+    "form": "tablet 5 mg, box of 10",
+    "price": 9.7,
+    "stock": 25,
+    "prescription_only": true,
+    "controlled": true
+  },
+  {
+    "id": "M09",
+    "name": "Nasoclear",
+    "active_ingredient": "nasoclearine",
+    "form": "nasal spray 0.1%, bottle of 15 ml",
+    "price": 5.6,
+    "stock": 0,
+    "prescription_only": false,
+    "controlled": false
+  },
+  {
+    "id": "M10",
+    "name": "Cardiostab 40",
+    "active_ingredient": "cardiostabine",
+    "form": "tablet 40 mg, box of 28",
+    "price": 14.9,
+    "stock": 30,
+    "prescription_only": true,
+    "controlled": false
+  },
+  {
+    "id": "M11",
+    "name": "Dolorex 10",
+    "active_ingredient": "dolorexone",
+    "form": "tablet 10 mg, box of 14",
+    "price": 11.2,
+    "stock": 18,
+    "prescription_only": true,
+    "controlled": true
+  },
+  {
+    "id": "M12",
+    "name": "Ocufresh",
+    "active_ingredient": "ocufreshine",
+    "form": "eye drops 0.5%, bottle of 10 ml",
+    "price": 7.4,
+    "stock": 90,
+    "prescription_only": false,
+    "controlled": false
+  }
+]

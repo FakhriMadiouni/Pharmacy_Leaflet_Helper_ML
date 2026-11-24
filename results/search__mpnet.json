@@ -1,0 +1,248 @@
+{
+  "label": "mpnet",
+  "kind": "search",
+  "summary": {
+    "recall@1": 0.8888888888888888,
+    "recall@3": 0.9444444444444444,
+    "recall@5": 1.0,
+    "mrr": 0.9277777777777777,
+    "questions": 18
+  },
+  "items": [
+    {
+      "id": "Q01",
+      "expected": [
+        "M01-appearance"
+      ],
+      "found": [
+        "M01-appearance",
+        "M10-appearance",
+        "M11-appearance",
+        "M12-appearance",
+        "M04-appearance"
+      ]
+    },
+    {
+      "id": "Q02",
+      "expected": [
+        "M02-appearance"
+      ],
+      "found": [
+        "M02-appearance",
+        "M05-appearance",
+        "M09-appearance",
+        "M05-uses",
+        "M05-side_effects"
+      ]
+    },
+    {
+      "id": "Q03",
+      "expected": [
+        "M08-appearance"
+      ],
+      "found": [
+        "M08-appearance",
+        "M10-appearance",
+        "M11-appearance",
+        "M04-appearance",
+        "M01-appearance"
+      ]
+    },
+    {
+      "id": "Q04",
+      "expected": [
+        "M01-uses"
+      ],
+      "found": [
+        "M01-uses",
+        "M04-side_effects",
+        "M08-side_effects",
+        "M05-side_effects",
+        "M12-side_effects"
+      ]
+    },
+    {
+      "id": "Q05",
+      "expected": [
+        "M01-dosage"
+      ],
+      "found": [
+        "M01-dosage",
+        "M11-dosage",
+        "M10-dosage",
+        "M08-dosage",
+        "M04-dosage"
+      ]
+    },
+    {
+      "id": "Q06",
+      "expected": [
+        "M02-dosage"
+      ],
+      "found": [
+        "M02-dosage",
+        "M02-warnings",
+        "M02-uses",
+        "M02-side_effects",
+        "M09-dosage"
+      ]
+    },
+    {
+      "id": "Q07",
+      "expected": [
+        "M01-warnings"
+      ],
+      "found": [
+        "M01-warnings",
+        "M01-dosage",
+        "M01-side_effects",
+        "M11-warnings",
+        "M08-warnings"
+      ]
+    },
+    {
+      "id": "Q08",
+      "expected": [
+        "M04-warnings"
+      ],
+      "found": [
+        "M04-warnings",
+        "M04-side_effects",
+        "M08-warnings",
+        "M04-dosage",
+        "M11-warnings"
+      ]
+    },
+    {
+      "id": "Q09",
+      "expected": [
+        "M04-side_effects"
+      ],
+      "found": [
+        "M04-side_effects",
+        "M04-uses",
+        "M04-warnings",
+        "M04-dosage",
+        "M04-appearance"
+      ]
+    },
+    {
+      "id": "Q10",
+      "expected": [
+        "M09-dosage"
+      ],
+      "found": [
+        "M09-dosage",
+        "M11-dosage",
+        "M07-dosage",
+        "M09-warnings",
+        "M05-dosage"
+      ]
+    },
+    {
+      "id": "Q11",
+      "expected": [
+        "M09-uses"
+      ],
+      "found": [
+        "M09-uses",
+        "M04-uses",
+        "M09-side_effects",
+        "M06-side_effects",
+        "M04-side_effects"
+      ]
+    },
+    {
+      "id": "Q12",
+      "expected": [
+        "M03-uses",
+        "M03-dosage"
+      ],
+      "found": [
+        "M10-dosage",
+        "M08-dosage",
+        "M04-dosage",
+        "M10-warnings",
+        "M03-uses"
+      ]
+    },
+    {
+      "id": "Q13",
+      "expected": [
+        "M06-uses"
+      ],
+      "found": [
+        "M06-uses",
+        "M06-appearance",
+        "M06-dosage",
+        "M06-warnings",
+        "M06-side_effects"
+      ]
+    },
+    {
+      "id": "Q14",
+      "expected": [
+        "M05-warnings"
+      ],
+      "found": [
+        "M05-dosage",
+        "M05-warnings",
+        "M05-uses",
+        "M05-appearance",
+        "M05-side_effects"
+      ]
+    },
+    {
+      "id": "Q15",
+      "expected": [
+        "M11-uses"
+      ],
+      "found": [
+        "M11-uses",
+        "M11-warnings",
+        "M11-side_effects",
+        "M11-dosage",
+        "M11-appearance"
+      ]
+    },
+    {
+      "id": "Q16",
+      "expected": [
+        "M07-dosage"
+      ],
+      "found": [
+        "M07-dosage",
+        "M07-side_effects",
+        "M07-appearance",
+        "M07-warnings",
+        "M05-dosage"
+      ]
+    },
+    {
+      "id": "Q17",
+      "expected": [
+        "M12-uses"
+      ],
+      "found": [
+        "M12-uses",
+        "M12-dosage",
+        "M08-side_effects",
+        "M12-side_effects",
+        "M08-dosage"
+      ]
+    },
+    {
+      "id": "Q18",
+      "expected": [
+        "M08-dosage"
+      ],
+      "found": [
+        "M08-dosage",
+        "M11-dosage",
+        "M08-side_effects",
+        "M08-warnings",
+        "M04-dosage"
+      ]
+    }
+  ]
+}

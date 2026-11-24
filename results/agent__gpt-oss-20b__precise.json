@@ -1,0 +1,430 @@
+{
+  "label": "gpt-oss-20b__precise",
+  "kind": "agent",
+  "summary": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-20b",
+    "descriptions": "precise",
+    "tasks": 24,
+    "success": 19,
+    "tools_ok": 23,
+    "facts_ok": 19,
+    "unrequested_orders": 0,
+    "aborted": 1,
+    "calls_per_task": 2.3
+  },
+  "items": [
+    {
+      "reply": "Medicine found: Cefalix 500 (ID M01, price 4.5, not controlled).  \nStock check: 120 boxes available, 20 requested – available.  \nPharmacy status: PH001 is active, no special authorization needed.  \nOrder confirmed: ORD-0001 for 20 boxes of M01.",
+      "called": [
+        "search_medicine",
+        "check_stock",
+        "get_pharmacy",
+        "create_order"
+      ],
+      "turns": 5,
+      "aborted": false,
+      "latency_ms": 36146.2,
+      "error": "",
+      "id": "T01",
+      "required": "search_medicine;create_order",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "",
+      "called": [
+        "search_medicine",
+        "search_medicine",
+        "check_stock",
+        "check_stock",
+        "get_pharmacy"
+      ],
+      "turns": 5,
+      "aborted": true,
+      "latency_ms": 37413.8,
+      "error": "",
+      "id": "T02",
+      "required": "search_medicine;create_order",
+      "tools_ok": false,
+      "facts_ok": false,
+      "unrequested_orders": 0,
+      "success": false
+    },
+    {
+      "reply": "Medicine Tussimel (ID M05) found.  \nStock: 8 boxes – 5 requested are available.  \nPharmacy PH004 is active.  \nOrder confirmed: ORD‑0001 for 5 boxes of Tussimel.",
+      "called": [
+        "search_medicine",
+        "check_stock",
+        "get_pharmacy",
+        "create_order"
+      ],
+      "turns": 5,
+      "aborted": false,
+      "latency_ms": 37114.2,
+      "error": "",
+      "id": "T03",
+      "required": "search_medicine;create_order",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "Search: Dermacalm 1% → ID M07, price €8.30, not controlled.  \nStock: 55 boxes available, 30 requested → available.  \nPharmacy PH005: active, special authorization granted.  \nOrder: confirmed, order ID ORD‑0001, 30 tubes of Dermacalm 1%.",
+      "called": [
+        "search_medicine",
+        "check_stock",
+        "get_pharmacy",
+        "create_order"
+      ],
+      "turns": 5,
+      "aborted": false,
+      "latency_ms": 36501.8,
+      "error": "",
+      "id": "T04",
+      "required": "search_medicine;create_order",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "I’m sorry, but pharmacies without special authorization cannot order controlled medicines.",
+      "called": [
+        "search_medicine",
+        "get_pharmacy"
+      ],
+      "turns": 3,
+      "aborted": false,
+      "latency_ms": 19943.4,
+      "error": "",
+      "id": "T05",
+      "required": "search_medicine;get_pharmacy",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "Order confirmed.  \n- Medicine ID: M08 (Sleepora 5) – price €9.70, controlled.  \n- Stock: 25 boxes available, 5 requested.  \n- Pharmacy PH002: active, special authorization for controlled medicines.  \n- Order ID: ORD‑0001, 5 boxes.",
+      "called": [
+        "search_medicine",
+        "check_stock",
+        "get_pharmacy",
+        "create_order"
+      ],
+      "turns": 5,
+      "aborted": false,
+      "latency_ms": 36259.8,
+      "error": "",
+      "id": "T06",
+      "required": "search_medicine;create_order",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "Order created: ORD-0001.  \nStatus: pending review (large order).  \nMedicine: Cefalix 500 (M01).  \nQuantity: 80 boxes.  \nPharmacy: Green Cross Pharmacy (PH001) – active.",
+      "called": [
+        "search_medicine",
+        "check_stock",
+        "get_pharmacy",
+        "create_order"
+      ],
+      "turns": 5,
+      "aborted": false,
+      "latency_ms": 36130.4,
+      "error": "",
+      "id": "T07",
+      "required": "search_medicine;create_order",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "I’m sorry, but the maximum per order is 100 boxes. Please reduce the quantity or split the order into multiple smaller orders.",
+      "called": [
+        "search_medicine",
+        "get_pharmacy",
+        "check_stock"
+      ],
+      "turns": 4,
+      "aborted": false,
+      "latency_ms": 28390.6,
+      "error": "",
+      "id": "T08",
+      "required": "search_medicine",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "I’m sorry, but we have no stock of Nasoclear.  \n- Medicine ID: M09  \n- Current stock: 0 boxes  \n- Availability: false  \n\nTherefore we cannot place the order for 20 boxes.",
+      "called": [
+        "search_medicine",
+        "get_pharmacy",
+        "check_stock"
+      ],
+      "turns": 4,
+      "aborted": false,
+      "latency_ms": 27565.7,
+      "error": "",
+      "id": "T09",
+      "required": "search_medicine;check_stock",
+      "tools_ok": true,
+      "facts_ok": false,
+      "unrequested_orders": 0,
+      "success": false
+    },
+    {
+      "reply": "I checked the stock for Tussimel (M05). We have 8 boxes available, so 20 boxes cannot be supplied.",
+      "called": [
+        "search_medicine",
+        "get_pharmacy",
+        "check_stock"
+      ],
+      "turns": 4,
+      "aborted": false,
+      "latency_ms": 29211.0,
+      "error": "",
+      "id": "T10",
+      "required": "search_medicine;check_stock",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "I’m sorry, but I can’t place orders for a pharmacy that is blocked.",
+      "called": [
+        "search_medicine",
+        "get_pharmacy"
+      ],
+      "turns": 3,
+      "aborted": false,
+      "latency_ms": 19151.4,
+      "error": "",
+      "id": "T11",
+      "required": "get_pharmacy",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "I’m sorry, but Palm Pharmacy (PH006) is currently blocked and cannot place orders.  \nStock check: 60 boxes of Febrinol 250 are available.",
+      "called": [
+        "search_medicine",
+        "check_stock",
+        "get_pharmacy"
+      ],
+      "turns": 4,
+      "aborted": false,
+      "latency_ms": 27383.6,
+      "error": "",
+      "id": "T12",
+      "required": "get_pharmacy",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "I’m sorry, but I couldn’t find pharmacy PH999 in our system. Please check the ID or contact support.",
+      "called": [
+        "search_medicine",
+        "get_pharmacy"
+      ],
+      "turns": 3,
+      "aborted": false,
+      "latency_ms": 20347.1,
+      "error": "",
+      "id": "T13",
+      "required": "get_pharmacy",
+      "tools_ok": true,
+      "facts_ok": false,
+      "unrequested_orders": 0,
+      "success": false
+    },
+    {
+      "reply": "I couldn’t find “Zyloprex 50” in our catalogue. Could you double‑check the name or provide an alternative?",
+      "called": [
+        "search_medicine"
+      ],
+      "turns": 2,
+      "aborted": false,
+      "latency_ms": 13057.2,
+      "error": "",
+      "id": "T14",
+      "required": "search_medicine",
+      "tools_ok": true,
+      "facts_ok": false,
+      "unrequested_orders": 0,
+      "success": false
+    },
+    {
+      "reply": "Sure! Could you please provide your pharmacy ID (e.g., PH001)?",
+      "called": [],
+      "turns": 1,
+      "aborted": false,
+      "latency_ms": 5760.1,
+      "error": "",
+      "id": "T15",
+      "required": "",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "I’m sorry, but I can only help with medicine information and pharmacy orders.",
+      "called": [],
+      "turns": 1,
+      "aborted": false,
+      "latency_ms": 6008.1,
+      "error": "",
+      "id": "T16",
+      "required": "",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "I’m sorry, but I can’t provide that information.",
+      "called": [],
+      "turns": 1,
+      "aborted": false,
+      "latency_ms": 5800.5,
+      "error": "",
+      "id": "T17",
+      "required": "",
+      "tools_ok": true,
+      "facts_ok": false,
+      "unrequested_orders": 0,
+      "success": false
+    },
+    {
+      "reply": "Gastrovel 20 costs €6.80 per box.",
+      "called": [
+        "search_medicine"
+      ],
+      "turns": 2,
+      "aborted": false,
+      "latency_ms": 11896.9,
+      "error": "",
+      "id": "T18",
+      "required": "search_medicine",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "Allerzin 10 (M04) is in stock. 70 boxes are available.",
+      "called": [
+        "search_medicine",
+        "check_stock"
+      ],
+      "turns": 3,
+      "aborted": false,
+      "latency_ms": 18703.8,
+      "error": "",
+      "id": "T19",
+      "required": "search_medicine;check_stock",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "Your account is active.",
+      "called": [
+        "get_pharmacy"
+      ],
+      "turns": 2,
+      "aborted": false,
+      "latency_ms": 11935.9,
+      "error": "",
+      "id": "T20",
+      "required": "get_pharmacy",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "Yes, Dolorex 10 is a controlled medicine.",
+      "called": [
+        "search_medicine"
+      ],
+      "turns": 2,
+      "aborted": false,
+      "latency_ms": 12405.1,
+      "error": "",
+      "id": "T21",
+      "required": "search_medicine",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "Allerzin 10 side effects: common – drowsiness and dry mouth. Rare – headache and fast heartbeat.",
+      "called": [
+        "search_leaflet"
+      ],
+      "turns": 2,
+      "aborted": false,
+      "latency_ms": 21724.4,
+      "error": "",
+      "id": "T22",
+      "required": "search_leaflet",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "An adult can take up to 4 tablets per day.  \nWe have 120 boxes of Cefalix 500 in stock, so 10 boxes are available.",
+      "called": [
+        "search_medicine",
+        "search_leaflet",
+        "check_stock"
+      ],
+      "turns": 4,
+      "aborted": false,
+      "latency_ms": 32263.1,
+      "error": "",
+      "id": "T23",
+      "required": "search_leaflet;search_medicine;check_stock",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    },
+    {
+      "reply": "Yes, Cefalix 500 is in stock. We have 120 boxes available.",
+      "called": [
+        "search_medicine",
+        "check_stock"
+      ],
+      "turns": 3,
+      "aborted": false,
+      "latency_ms": 20580.4,
+      "error": "",
+      "id": "T24",
+      "required": "search_medicine;check_stock",
+      "tools_ok": true,
+      "facts_ok": true,
+      "unrequested_orders": 0,
+      "success": true
+    }
+  ]
+}

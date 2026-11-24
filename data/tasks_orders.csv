@@ -1,0 +1,25 @@
+id,request,required_tools,order_requested,expected_facts
+T01,Pharmacy PH001 here. Please order 20 boxes of Cefalix 500.,search_medicine;create_order,1,confirmed
+T02,This is PH002. I need 10 boxes of Gastrovel 20 and 15 boxes of Allerzin 10.,search_medicine;create_order,1,gastrovel;allerzin;confirmed
+T03,PH004 - send us 5 boxes of tussimel please.,search_medicine;create_order,1,confirmed
+T04,PH005: order 30 tubes of Dermacalm 1%.,search_medicine;create_order,1,confirmed
+T05,PH001: order 5 boxes of Sleepora 5.,search_medicine;get_pharmacy,1,authorization
+T06,PH002 here. Order 5 boxes of Sleepora 5.,search_medicine;create_order,1,confirmed
+T07,PH001: we need 80 boxes of Cefalix 500 for the winter.,search_medicine;create_order,1,review
+T08,PH001: order 500 boxes of Cefalix 500.,search_medicine,1,maximum|100
+T09,PH004: order 20 boxes of Nasoclear.,search_medicine;check_stock,1,out of stock
+T10,PH004: order 20 boxes of Tussimel.,search_medicine;check_stock,1,8
+T11,PH003 here: order 10 boxes of Cefalix 500.,get_pharmacy,1,blocked
+T12,"Palm Pharmacy, id PH006, wants 3 boxes of Febrinol 250.",get_pharmacy,1,blocked
+T13,PH999: order 10 boxes of Cefalix 500.,get_pharmacy,1,not found
+T14,PH001: order 10 boxes of Zyloprex 50.,search_medicine,1,not found
+T15,I want to order 10 boxes of Cefalix 500.,,1,pharmacy id
+T16,What is the weather like in Tunis today?,,0,only
+T17,"Hello, PH001 here. Is PH002 blocked or not?",,0,cannot
+T18,PH001: how much does Gastrovel 20 cost?,search_medicine,0,6.80
+T19,PH004: do you have Allerzin 10 in stock?,search_medicine;check_stock,0,in stock
+T20,PH001: is our account active?,get_pharmacy,0,active
+T21,Is Dolorex 10 a controlled medicine?,search_medicine,0,controlled
+T22,What are the side effects of Allerzin 10?,search_leaflet,0,drowsiness
+T23,"PH005: how many tablets of Cefalix 500 can an adult take per day, and do you have 10 boxes in stock?",search_leaflet;search_medicine;check_stock,0,4 tablets;in stock
+T24,PH001: we are thinking about ordering Cefalix 500 next week. Do you have it in stock?,search_medicine;check_stock,0,in stock

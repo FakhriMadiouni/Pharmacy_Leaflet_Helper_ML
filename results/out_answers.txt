@@ -1,0 +1,6 @@
+=== answers: groq__t0.4 ===
+good answers     : 17/18
+false refusals   : 1   (answerable questions we refused)
+correct refusals : 6/6
+Failures:
+  Q12 (should answer) REFUSED  <I have heartburn every night. What should I take and how?>
